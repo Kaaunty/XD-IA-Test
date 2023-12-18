@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container-background">
+    <div>
+      <img class="logo" src="img/XD-IA-Logo.svg" alt="">
+      <img class="userImg" src="img/user-login.svg" alt="">
+
+    </div>
+    <div class="container">
+      <h1 class=" font-2-g login-h1">Acesse a sua conta</h1>
+
+      <form>
+        <div class="input-form">
+          <img class="imageicon" src="img/userIcon.svg" alt="">
+          <label class="font-1-m " for="username">Usuário:</label>
+          <input type="text" placeholder="Digite o Usuario:" id="username" name="username" required>
+        </div>
+
+        <div class="input-form">
+          <img class="imageicon" src="img/cadeadoIcon.svg" alt="">
+          <label class="font-1-m " for="password">Senha:</label>
+          <input type="password" placeholder="Digite a Senha:" id="password" name="password" required>
+        </div>
+        <div class="enter-dados">
+          <div class="checkbox">
+            <input type="checkbox" name="dados" id="dados">
+            <label for="dados">Lembrar meus dados</label>
+          </div>
+          <input class="buttonEnter" type="button" value="Entrar">
+
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
