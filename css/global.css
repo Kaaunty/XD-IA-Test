@@ -9,7 +9,7 @@ form {
 
 body {
   height: 100vh;
-  background-color: #e3e6ec;
+  background-color: var(--outer-background-color);
   align-items: center;
   display: flex;
   flex-direction: row;

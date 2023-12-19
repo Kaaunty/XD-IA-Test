@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:800i&display=swap");
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hide-checkbox {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.toggle {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+
+  background: #24d7f7;
+  border-radius: 50px;
+  transition: 500ms;
+  overflow: hidden;
+}
+
+.toggle-button {
+  position: absolute;
+  display: inline-block;
+  top: 7px;
+  left: 6px;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: #f7ffff;
+  overflow: hidden;
+  box-shadow: 0 0 35px 4px rgba(255, 255, 255);
+  transition: all 500ms ease-out;
+}
+
+@keyframes travel {
+  0% {
+    transform: rotate(-45deg) translateX(20px);
+  }
+
+  50% {
+    transform: rotate(-45deg) translateX(-20px);
+    box-shadow: 5px 0px 6px 1px #fff;
+  }
+
+  100% {
+    transform: rotate(-45deg) translateX(-10px);
+    width: 2px;
+    height: 2px;
+    opacity: 0;
+    box-shadow: none;
+  }
+}
+
+#hide-checkbox:checked + .toggle {
+  background: #211042;
+}
+
+#hide-checkbox:checked + .toggle .toggle-button {
+  background: #faeaf1;
+  transform: translateX(45px);
+  box-shadow: 0 0 35px 5px rgba(255, 255, 255);
+}
+
+#hide-checkbox:checked + .toggle .toggle-button .crater {
+  transform: rotate(-45deg) translateX(20px);
+}
+
+@keyframes move {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateX(2px);
+  }
+
+  100% {
+    transform: translateX(-2px);
+  }
+}
+
+p {
+  text-align: center;
+  letter-spacing: 15px;
+  background: #34495e;
+  color: #fff;
+}
+
+p.morning {
+  background: #e67e22;
+}
+
+.button-theme-changer {
+  position: fixed;
+  top: 60px;
+  left: 93%;
+}
