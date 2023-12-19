@@ -85,10 +85,6 @@ input[type="button"]:hover {
   background-color: var(--button-background-hover);
 }
 
-.active {
-  background-color: var(--button-background-hover);
-}
-
 @media (max-width: 600px) {
   body {
     background-color: var(--background-color);
@@ -152,7 +148,7 @@ input[type="button"]:hover {
     color: var(--placeholder-second);
   }
   input[type="button"] {
-    background-color: #4e627b;
+    background-color: var(--button-background);
     width: 70px;
     height: 30px;
     padding: 0px;

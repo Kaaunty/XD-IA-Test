@@ -19,10 +19,10 @@ body.dark-theme {
   --background-color-form: #fff;
   --label-1: #5a5a5d;
   --border-input: #bbbbbb;
-  --background-input: #5c7087;
+  --background-input: #616161;
   --placeholder: #bbbbbb;
   --placeholder-second: #a6b0bd;
-  --button-background: #2d2d2d;
+  --button-background: #616161;
   --cor-branco: #fff;
   --button-background-hover: #24374e;
 }

@@ -103,3 +103,21 @@ p.morning {
   top: 60px;
   left: 93%;
 }
+@media (max-width: 600px) {
+  .button-theme-changer {
+    left: 87%;
+    top: 30px;
+  }
+  .toggle {
+    width: 70px;
+    height: 35px;
+  }
+
+  .toggle-button {
+    width: 25px;
+    height: 25px;
+  }
+  #hide-checkbox:checked + .toggle .toggle-button {
+    transform: translateX(35px);
+  }
+}
