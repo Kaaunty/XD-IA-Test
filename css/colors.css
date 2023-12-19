@@ -13,7 +13,7 @@ body {
   --button-background-hover: #24374e;
 }
 body.dark-theme {
-  --text-color: #5a5a5d;
+  --text-color: #ffffff;
   --outer-background-color: #282828;
   --background-color: #2d2d2d;
   --background-color-form: #fff;

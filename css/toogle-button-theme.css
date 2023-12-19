@@ -99,11 +99,11 @@ p.morning {
 }
 
 .button-theme-changer {
-  position: fixed;
-  top: 60px;
-  left: 93%;
+  position: absolute;
+  left: 96%;
+  top: 30px;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .button-theme-changer {
     left: 87%;
     top: 30px;
